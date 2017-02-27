@@ -1,6 +1,6 @@
 module Commandoes
   module Plugins
-    module ActiveModelValidationsPlugin
+    module ActiveModelPlugin
       module ClassMethods
         def self.extended(object)
           object.send(:include, ActiveModel::Validations)
