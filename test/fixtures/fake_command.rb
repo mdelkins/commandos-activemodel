@@ -1,6 +1,6 @@
 module Commandoes
   class FakeCommand < Commandoes::IAmACommand
-    use Commandoes::Plugins::ActiveModelValidationsPlugin
+    use Commandoes::Plugins::ActiveModelPlugin
 
     attr_reader :name
     attr_reader :value
