@@ -1,6 +1,6 @@
 require 'test_helper'
 
-module Commandoes
+module Commandos
   class ValidationPluginTest < Minitest::Test
     def subject
       FakeCommand

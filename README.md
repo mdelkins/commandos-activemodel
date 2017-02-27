@@ -1,7 +1,7 @@
 # COMMANDOES-ACTIVEMODEL
 
-A plugin for the [commandoes](http://github.com/mdelkins/commandoes) library.
-This plugin adds ActiveModel to your commandoes commands.
+A plugin for the [commandos](http://github.com/mdelkins/commandos) library.
+This plugin adds ActiveModel to your commandos commands.
 
 ## PREREQUISITES
 * ruby-2.4.0
@@ -11,14 +11,14 @@ This plugin adds ActiveModel to your commandoes commands.
 In your Gemfile
 
 ```ruby
-gem 'commandoes-activemodel'
+gem 'commandos-activemodel'
 ```
 
 ### EXAMPLES
 
 ```ruby
-class FooCommand < Commandoes::IAmACommand
-  use Commandoes::Plugins::ActiveModelValidationsPlugin
+class FooCommand < Commandos::IAmACommand
+  use Commandos::Plugins::ActiveModelValidationsPlugin
 
   attr_reader :name, :value
 
