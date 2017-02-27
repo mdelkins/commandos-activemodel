@@ -6,6 +6,9 @@ This plugin adds ActiveModel to your commandos commands.
 ## PREREQUISITES
 * ruby-2.4.0
 
+## DEPENDENCIES
+* ActiveModel
+
 ## INSTALLATION
 
 In your Gemfile
